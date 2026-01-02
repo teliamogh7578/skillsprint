@@ -1,11 +1,11 @@
 :root {
-  --color-primary: #2563eb; /* tech blue */
+  --color-primary: #2563eb;
   --color-primary-dark: #1d4ed8;
 
-  --color-text-primary: #0f172a; /* slate-900 */
-  --color-text-secondary: #475569; /* slate-600 */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
 
-  --color-bg-light: #f8fafc; /* hero bg */
+  --color-bg-light: #f8fafc;
   --color-bg-white: #ffffff;
 }
 
