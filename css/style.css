@@ -385,3 +385,116 @@
 .testimonial-image-grid img {
   border-radius: 6px;
 }
+/* PRICING SECTION  */
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  width: 75%;
+  background-color: var(--color-bg-white);
+}
+
+/* STARTER PLAN */
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #e2e8f0;
+  padding: 4.6rem;
+}
+
+/* PRO PLAN */
+.pricing-plan--complete {
+  background-color: var(--color-bg-light);
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* BADGE */
+.pricing-plan--complete::after {
+  content: "Most popular";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--color-primary);
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+/* HEADER */
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+/* CTA */
+.plan-sing-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+/* FOOTNOTE */
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+/* FEATURES */
+.feature-icon {
+  color: var(--color-primary);
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: var(--color-bg-light);
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: var(--color-text-primary);
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
