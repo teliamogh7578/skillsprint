@@ -543,7 +543,6 @@
   width: 150%;
   object-fit: contain;
   border-radius: 12px;
-
 }
 
 /* FORM */
@@ -584,4 +583,16 @@
   outline: none;
   box-shadow: 0 0 0 0.4rem rgba(37, 99, 235, 0.35);
   border-color: var(--color-primary);
+}
+.btn--form {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+.btn--form:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(37, 99, 235, 0.4);
+}
+.btn--form:hover,
+.btn--form:active {
+  background-color: var(--color-primary-dark);
 }
