@@ -187,3 +187,58 @@
 .main-nav-link {
   font-size: 3rem;
 }
+/* BELOW 704px */
+@media (max-width: 44em) {
+  /* GENERIC GRIDS */
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+  /* HEADINGS */
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+  /* HOW IT WORKS  */
+  @media (max-width: 44em) {
+    .section-how {
+      padding: 6.4rem 0;
+    }
+    .section-how .grid {
+      grid-template-columns: 1fr;
+      row-gap: 4.8rem;
+    }
+    .step-text-box {
+      text-align: center;
+    }
+    .step-number {
+      font-size: 6.4rem;
+    }
+    .step-img-box {
+      order: 2;
+    }
+    .step-img {
+      width: 80%;
+    }
+  }
+  /* PRICING */
+  .pricing-plan {
+    width: 100%;
+    justify-self: center;
+  }
+  /* FOOTER */
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+  .nav-col {
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+}
+.step-img-box {
+  display: none;
+}
