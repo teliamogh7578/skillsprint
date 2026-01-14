@@ -278,3 +278,51 @@
 .step-img-box {
   display: none;
 }
+/* BELOW 544px (Phones) */
+@media (max-width: 34em) {
+  /* GLOBAL SPACING */
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+  /* BUTTONS */
+  .btn,
+  .btn:link,
+  .btn:visited {
+    width: 100%;
+    padding: 2.4rem 1.6rem;
+    text-align: center;
+  }
+  /* HERO */
+  .hero-container {
+    padding: 0 3.2rem;
+  }
+  .hero-image {
+    width: 80%;
+  }
+  /* HOW IT WORKS */
+  .step-img-box {
+    display: none;
+  }
+  /* TESTIMONIALS */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-image-grid {
+    display: none;
+  }
+  /* CTA */
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+  .cta-form {
+    row-gap: 2.4rem;
+  }
+}
