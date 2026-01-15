@@ -1,5 +1,14 @@
 # SkillSprint
 
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
+![Performance](https://img.shields.io/badge/Performance-100-success)
+![Accessibility](https://img.shields.io/badge/Accessibility-95%2B-brightgreen)
+![SEO](https://img.shields.io/badge/SEO-100-brightgreen)
+![Netlify](https://img.shields.io/badge/Deployed-Netlify-00C7B7?logo=netlify&logoColor=white)
+
 **SkillSprint — Learning Roadmaps, Simplified**
 
 SkillSprint is a responsive **frontend landing page** that showcases the concept of an AI-guided skill-building platform designed to help learners follow clear, structured learning roadmaps instead of jumping between random tutorials.
@@ -79,7 +88,7 @@ This landing page is optimized for real-world performance.
 
 **Lighthouse Scores:**
 
-- ⚡ Performance: **99**
+- ⚡ Performance: **100**
 - ♿ Accessibility: **96**
 - ✅ Best Practices: **96**
 - 🔍 SEO: **100**
@@ -123,3 +132,7 @@ Fully responsive layout with mobile navigation and optimized spacing.
 
 ![Mobile view](./img/screenshots/mobile.png)
 ![Mobile nav view](./img/screenshots/mobile-nav-ss.png)
+
+## Lighthouse Score
+
+![Lighthouse score](./img/screenshots/lighthouse-score.png)
