@@ -79,7 +79,7 @@ This landing page is optimized for real-world performance.
 
 **Lighthouse Scores:**
 
-- ⚡ Performance: **99**
+- ⚡ Performance: **100**
 - ♿ Accessibility: **96**
 - ✅ Best Practices: **96**
 - 🔍 SEO: **100**
@@ -123,3 +123,7 @@ Fully responsive layout with mobile navigation and optimized spacing.
 
 ![Mobile view](./img/screenshots/mobile.png)
 ![Mobile nav view](./img/screenshots/mobile-nav-ss.png)
+
+## Lighthouse Score
+
+![Lighthouse score](./img/screenshots/lighthouse-score.png)
