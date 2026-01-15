@@ -7,6 +7,13 @@ SkillSprint is a responsive **frontend landing page** that showcases the concept
 This project focuses on **UI/UX, responsiveness, performance, and frontend engineering quality**, and represents how SkillSprint would look and feel as a real startup landing experience.
 
 ---
+## 🚀 Live Demo
+
+Explore the SkillSprint landing experience:
+
+🔗 https://skillsprint-app.netlify.app
+
+This is a production-ready frontend prototype demonstrating how SkillSprint would look and feel as a real startup product.
 
 ## 🔑 Key Features
 
