@@ -59,3 +59,23 @@ if (heroSection) {
 
   stickyObserver.observe(heroSection);
 }
+// Flexbox gap property detection
+function detectFlexGapSupport() {
+  const testFlex = document.createElement("div");
+  testFlex.style.display = "flex";
+  testFlex.style.flexDirection = "column";
+  testFlex.style.rowGap = "1px";
+
+  testFlex.appendChild(document.createElement("div"));
+  testFlex.appendChild(document.createElement("div"));
+
+  document.body.appendChild(testFlex);
+  const isSupported = testFlex.scrollHeight === 1;
+  testFlex.remove();
+
+  if (!isSupported) {
+    document.body.classList.add("no-flexbox-gap");
+  }
+}
+
+detectFlexGapSupport();
