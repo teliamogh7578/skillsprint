@@ -36,3 +36,26 @@ anchorLinks.forEach((link) => {
     }
   });
 });
+// Sticky header
+const heroSection = document.querySelector("#hero");
+
+if (heroSection) {
+  const stickyObserver = new IntersectionObserver(
+    (entries) => {
+      const [entry] = entries;
+
+      if (!entry.isIntersecting) {
+        document.body.classList.add("sticky");
+      } else {
+        document.body.classList.remove("sticky");
+      }
+    },
+    {
+      root: null,
+      threshold: 0,
+      rootMargin: "-80px",
+    }
+  );
+
+  stickyObserver.observe(heroSection);
+}
