@@ -229,7 +229,7 @@
     padding: 0 3.2rem;
   }
   .hero-image {
-    width: 80%;
+    display: none;
   }
   /* TESTIMONIALS */
   .testimonials-grid {
