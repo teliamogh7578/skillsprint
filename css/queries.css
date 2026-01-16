@@ -232,8 +232,12 @@
     display: none;
   }
   /* TESTIMONIALS */
-  .testimonials-grid {
+
+  /* .testimonials-grid {
     grid-template-columns: 1fr;
+  } */
+  .section-testimonials {
+    display: inline-block;
   }
   .testimonial-image-grid {
     display: none;
@@ -281,5 +285,11 @@
   .no-flexbox-gap .main-nav-list li:not(:last-child) {
     margin-right: 0;
     margin-bottom: 4.8rem;
+  }
+}
+/* BELOW 375px (Small phones) */
+@media (max-width: 23.5em) {
+  .logos img {
+    height: 4rem;
   }
 }
